@@ -609,6 +609,7 @@ body:not(.user-is-tabbing) a:focus {
 .release{
     position: relative;
     transform: translateX(150px);
+    
     opacity: 0;
     transition: 2s all ease;
   }
@@ -635,6 +636,13 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Contact ----- */
 /* --------------------------------------- */
 
+#hobbies{
+    color: #f0e9f2;
+}
+
+
+
+
 .contact__info {
     max-width: var(--container-medium-width);
 }
@@ -643,6 +651,7 @@ body:not(.user-is-tabbing) a:focus {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
+    color: #f0e9f2;
     transition: 3s all ease;
   }
   
